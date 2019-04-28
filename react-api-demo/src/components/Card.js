@@ -1,7 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {fetchData} from "../actions";
+// import styled from 'styled-components';
 import CardBody from './CardBody';
+
+
 
 class Card extends React.Component {
     componentDidMount() {
