@@ -1,19 +1,25 @@
 import React from 'react';
 import Card from './Card';
-// import theme from '../theme';
 import styled from 'styled-components';
+import Variables from '../variables';
 
 const AppWrapper = styled.main`
     font-family: 'Roboto', sans-serif;
+    color: ${Variables.darkGrey};
     text-align: center;
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: ${Variables.cream};
+    padding: 2em;
 `;
 
 const CardWrapper = styled.section`
-    border: 2px solid grey;
+    border: 2px solid ${Variables.darkGrey};
     max-width: 250px;
-    padding: 2em;
+    padding: 1em;
+    background-color: #FFF;
 `;
 
 const App = () => {

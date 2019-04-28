@@ -14,14 +14,9 @@ class Card extends React.Component {
         console.log(this.props.data);
         const data = this.props.data;
         if (!data) {
-            return <main>Loading...</main>
+            return <div>Loading...</div>
         }
-        return (
-            <main>
-                <CardBody data={data} />
-            </main>
-
-        );
+        return <CardBody data={data} />
     }
 }
 
