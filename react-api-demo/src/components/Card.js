@@ -5,24 +5,20 @@ import CardBody from './CardBody';
 
 class Card extends React.Component {
     componentDidMount() {
-        this.props.fetchData();
+        // Hard code user name for now
+        const user = 'DeannaMarbeck';
+        this.props.fetchData(user);
     }
     render() {
-        console.log(this.props.data);
         const data = this.props.data;
         if (!data) {
-            return <main>Loading...</main>
+            return <div>Loading...</div>
         }
-        return (
-            <main>
-                <CardBody data={data} />
-            </main>
-
-        );
+        return <CardBody data={data} />
     }
 }
 
 const mapStateToProps = (state) => {
     return {data: state.data}
-}
+};
 export default connect(mapStateToProps, {fetchData: fetchData})(Card);
