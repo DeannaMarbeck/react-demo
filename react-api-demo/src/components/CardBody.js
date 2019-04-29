@@ -17,18 +17,15 @@ const A = styled.a`
     }
 `;
 
-
-
 const CardBody = ({data}) => {
-    // console.log(props);
     return (
         <section>
             <H1>{data.name}</H1>
             <IMG src={data.avatar_url} alt="Avatar" />
             <p>{data.bio}</p>
             <p><A href={data.blog}>Website</A></p>
-            <p><A href={data.url}>Github site</A></p>
+            <p><A href={data.html_url}>Github site</A></p>
         </section>
-    )
-}
+    );
+};
 export default CardBody;

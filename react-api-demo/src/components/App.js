@@ -8,18 +8,22 @@ const AppWrapper = styled.main`
     color: ${Variables.darkGrey};
     text-align: center;
     display: flex;
+    flex: 1;
     justify-content: center;
+    align-items: center;
     max-width: 1200px;
+    height: 90vh;
     margin: 0px auto;
     background-color: ${Variables.cream};
     padding: 2em;
 `;
 
-const CardWrapper = styled.section`
+const CardWrapper = styled.div`
     border: 2px solid ${Variables.darkGrey};
     max-width: 250px;
     padding: 1em;
     background-color: #FFF;
+    height: fit-content;
 `;
 
 const App = () => {

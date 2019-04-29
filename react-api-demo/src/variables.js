@@ -1,3 +1,5 @@
+// Set up application wide styles
+
 const Variables = {
     darkGrey: '#222424',
     cream: '#E7F4F6',
