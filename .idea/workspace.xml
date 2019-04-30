@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d526f6a7-a90d-4d79-b5b2-0c323fe35114" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/api/gitHub.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/api/gitHub.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/components/CardBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/components/CardBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-api-demo/src/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-api-demo/src/variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-api-demo/src/theme.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
+            <state relative-caret-position="150">
               <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -49,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/Card.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="210">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -160,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,17 +232,17 @@
       <updated>1556383575568</updated>
       <workItem from="1556383577028" duration="1270000" />
       <workItem from="1556534667569" duration="90000" />
+      <workItem from="1556535020378" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13790000" />
+    <option name="totallyTimeSpent" value="13942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1260" height="690" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +254,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32943144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32943144" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,9 +266,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/theme.js" />
-    <entry file="file://$PROJECT_DIR$/react-api-demo/src/theme.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-api-demo/src/variables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -304,10 +291,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-api-demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-api-demo/src/reducers/dataReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -345,25 +352,8 @@
     <entry file="file://$PROJECT_DIR$/react-api-demo/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/react-api-demo/src/theme.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/react-api-demo/src/components/CardBody.js">
       <provider selected="true" editor-type-id="text-editor">
