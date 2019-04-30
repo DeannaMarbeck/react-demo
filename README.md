@@ -2,7 +2,7 @@
 
 This is a minimalist React proof-of-concept demonstrating fetching data from an API and displaying a card.
 
-It fetches my data from the GitHub API and displays information from my profile.
+It fetches data for a given GitHub username from the GitHub API and displays information from the profile.
 
 It uses the following:
 * React
@@ -16,7 +16,6 @@ It uses the following:
 
 ### Future enhancements:
 * Error handling
-* The ability to input a username to fetch data for
 * Styling upgrade
 * Tests
 
